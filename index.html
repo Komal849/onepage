@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+onepage_website
+Abdul Bari
+•
+Jun 28
+96
+/100
+96 points out of possible 100
+Due Jul 6
+Class comments
+Your work
+Graded
+
+navbar.html
+HTML
+
+about1.jpg
+Image
+
+about2.jpg
+Image
+
+about3.jpg
+Image
+
+about4.jpg
+Image
+
+english1.jpg
+Image
+
+english2.jpg
+Image
+
+english3.jpg
+Image
+
+HOMEE1.JPG
+Image
+
+HOMEE2.JPG
+Image
+
+HOMEE3.JPG
+Image
+
+topnov1.jpg
+Image
+
+topnov2.jpg
+Image
+
+topnov3.jpg
+Image
+
+urdu1.jpg
+Image
+
+urdu2.jpg
+Image
+
+urdu3.jpg
+Image
+Work cannot be turned in after the due date
+Private comments
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>book.com</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <style>
+        .navbar-nav .nav-item {
+            text-transform: uppercase;
+            font-size: 20px;
+            font-weight: 500;
+            padding-left: 30px;
+
+
+        }
+
+        .navbar-nav .nav-item .nav-link {
+            color: black;
+
+        }
+
+        .navbar-brand .navbar-text {
+            font-weight: 800;
+            font-size: 30px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            position: absolute;
+        }
+
+        .subtext {
+            font-size: 30px;
+            text-transform: uppercase;
+            padding: 110px;
+        }
+
+        .section-padding {
+            padding: 100px 0;
+        }
+
+        .carousel-control-prev-icon {
+            color: black;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <!-- nav bar start -->
+    <nav class="navbar navbar-expand-md bg-light sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <span class="navbar-text text-success">Books</span>
+                <span class="subtext"> </span> </a>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#mynav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="mynav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#Topnovels">Topnovels</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">about</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    <form class="d-flex">
+                        <li class="nav-item dropdown  px-5">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">Books
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item " href="#english novel">english novels</a></li>
+                                <li><a class="dropdown-item " href="#urdu novel">urdu novels</a></li>
+
+                            </ul>
+                        </li>
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--- Nav Bar End -->
+    <!-- slide -->
+    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <a href="#collapse navbar-collapse"></a>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="HOMEE1.JPG" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="HOMEE2.JPG" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="HOMEE3.JPG" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!-- Topnovels -->
+    <section id="Topnovels" class="Topnovels section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1 class="text-dark text-center">Top Novels</h1>
+                </div>
+                <div class="col-lg-4 col-md-12 col-12 pb-2">
+                    <div class="card">
+                        <div class="card-body text-center">
+                            <img src="topnov1.jpg" alt="" class="img-fluid">
+                            <h1 class="card-title mt-3">Peer e kamil</h1>
+                            <p class="lead">written by <b>umera ahmed</b>
+                            </p>
+                            <a href="#" class="btn btn-warning mt-3">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12 col-12 pb-2">
+                    <div class="card">
+                        <div class="card-body text-center">
+                            <img src="topnov3.jpg" alt="" class="img-fluid">
+                            <h1 class="card-title mt-3">The Book Thief</h1>
+                            <p class="lead">written by <b>Markus zusak</b></p>
+                            <a href="#" class="btn btn-warning mt-3">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12 col-12 pb-2">
+                    <div class="card">
+                        <div class="card-body text-center">
+                            <img src="topnov2.jpg" alt="" class="img-fluid">
+                            <h1 class="card-title mt-3">Aab e Hayat</h1>
+                            <p class="lead">written by <b>umera ahmed</b></p>
+                            <a href="#" class="btn btn-warning mt-3">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- about -->
+    <section id="about" class="about section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1 class="text-dark text-center">About us</h1>
+                </div>
+                <div class="col-lg-3 col-md-12 col-12 pb-2">
+                    <div class="card">
+                        <div class="card-body text-center">
+                            <img src="about1.jpg" alt="" class="img-fluid rounded-circle">
+                            <h3 class="card-title mt-3">NIMRAH AHMED</h3>
+                            <p class="lead">some urdu novels written by female and male writer</p>
+                            <ul class="list-inline">
+                                <li class="list-inline-item"><i class="fa-brands fa-twitter"></i></li>
+                                <li class="list-inline-item"><i class="fa-brands fa-facebook"></i></li>
+                                <li class="list-inline-item"><i class="fa-brands fa-linkedin"></i></li>
+                                <li class="list-inline-item"><i class="fa-brands fa-square-instagram"></i></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-12 col-12 pb-2">
+                    <div class="card">
+                        <div class="card-body text-center">
+                            <img src="about2.jpg" alt="" class="img-fluid rounded-circle">
+                            <h3 class="card-title mt-3">ROMINA RUSSELL</h3>
+                            <p class="lead">Some urdu novels written by female and male writer</p>
+                            <ul class="list-inline">
+                                <li class="list-inline-item"><i class="fa-brands fa-twitter"></i></li>
+                                <li class="list-inline-item"><i class="fa-brands fa-facebook"></i></li>
+                                <li class="list-inline-item"><i class="fa-brands fa-linkedin"></i></li>
+                                <li class="list-inline-item"><i class="fa-brands fa-square-instagram"></i></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-12 col-12 pb-2">
+                    <div class="card">
+                        <div class="card-body text-center">
+                            <img src="about3.jpg" alt="" class="img-fluid rounded-circle">
+                            <h3 class="card-title mt-3">NIMRAH AHMED</h3>
+                            <p class="lead">Some urdu novels written by female and male writer</p>
+                            <ul class="list-inline">
+                                <li class="list-inline-item"><i class="fa-brands fa-twitter"></i></li>
+                                <li class="list-inline-item"><i class="fa-brands fa-facebook"></i></li>
+                                <li class="list-inline-item"><i class="fa-brands fa-linkedin"></i></li>
+                                <li class="list-inline-item"><i class="fa-brands fa-square-instagram"></i></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-12 col-12 pb-2">
+                    <div class="card">
+                        <div class="card-body text-center">
+                            <img src="about4.jpg" alt="" class="img-fluid rounded-circle">
+                            <h3 class="card-title mt-3">UMERA AHMED</h3>
+                            <p class="lead">Some urdu novels written by female and male writer</p>
+                            <ul class="list-inline">
+                                <li class="list-inline-item"><i class="fa-brands fa-twitter"></i></li>
+                                <li class="list-inline-item"><i class="fa-brands fa-facebook"></i></li>
+                                <li class="list-inline-item"><i class="fa-brands fa-linkedin"></i></li>
+                                <li class="list-inline-item"><i class="fa-brands fa-square-instagram"></i></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- english novel -->
+    <section id="english novel" class="english novel section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1 class="text-dark text-center">English Novels</h1>
+                </div>
+                <div class="col-lg-4 col-md-12 col-12 pb-2">
+                    <div class="card">
+                        <div class="card-body text-center">
+                            <img src="english1.jpg" alt="" class="img-fluid">
+                            <h1 class="card-title mt-3">Jane Eyre</h1>
+                            <p class="lead">Jane Eyre is a novel by the English writer Charlotte Brontë. It was
+                                published under her pen name "Currer Bell" </p>
+                            <a href="#" class="btn btn-warning mt-3">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12 col-12 pb-2">
+                    <div class="card">
+                        <div class="card-body text-center">
+                            <img src="english2.jpg" alt="" class="img-fluid">
+                            <h1 class="card-title mt-3">Alice in Wonderland</h1>
+                            <p class="lead">Alice's Adventures in Wonderland is an 1865 English children's novel by
+                                Lewis Carroll, a mathematics don at the University of Oxford.</p>
+                            <a href="#" class="btn btn-warning mt-3">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12 col-12 pb-2">
+                    <div class="card">
+                        <div class="card-body text-center">
+                            <img src="english3.jpg" alt="" class="img-fluid">
+                            <h1 class="card-title mt-3">David Copperfield</h1>
+                            <p class="lead">David Copperfield is a novel by Charles Dickens, narrated by the eponymous
+                                David Copperfield, detailing his adventures in his journey from infancy to maturity.</p>
+                            <a href="#" class="btn btn-warning mt-3">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- urdunovel -->
+    <section id="urdu novel" class="urdu novel section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1 class="text-dark text-center">urdu Novels</h1>
+                </div>
+                <div class="col-lg-4 col-md-12 col-12 pb-2">
+                    <div class="card">
+                        <div class="card-body text-center">
+                            <img src="urdu1.jpg" alt="" class="img-fluid">
+                            <h1 class="card-title mt-3">کئی چاند تھے سر آسماں</h1>
+                            <p class="lead"></p>
+                            <a href="#" class="btn btn-warning mt-3">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12 col-12 pb-2">
+                    <div class="card">
+                        <div class="card-body text-center">
+                            <img src="urdu2.jpg" alt="" class="img-fluid">
+                            <h1 class="card-title mt-3">زندگی گلزار ہے</h1>
+                            <p class="lead"></p>
+                            <a href="#" class="btn btn-warning mt-3">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12 col-12 pb-2">
+                    <div class="card">
+                        <div class="card-body text-center">
+                            <img src="urdu3.jpg" alt="" class="img-fluid">
+                            <h1 class="card-title mt-3">جنت کے پتے </h1>
+                            <p class="lead"></p>
+                            <a href="#" class="btn btn-warning mt-3">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Contact -->
+    <section class="contact section-padding" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1 class="text-dark text-center">Contact</h1>
+                </div>
+                <div class="col-md-12">
+                    <form action="">
+                        <div class="mb-3">
+                            <input type="text" class="form-control" placeholder="Full Name">
+                        </div>
+                        <div class="mb-3">
+                            <input type="email" class="form-control" placeholder="Email">
+                        </div>
+                        <div class="mb-3">
+                            <textarea name="" id="" cols="30" rows="3" placeholder="Message"
+                                class="form-control"></textarea>
+                        </div>
+                        <div class="d-grid mb-3">
+                            <input type="submit" value="Submit" class="btn btn-warning">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
+</body>
+</html>
